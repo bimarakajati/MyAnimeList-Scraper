@@ -47,13 +47,13 @@ This is a Scrapy project that is designed to scrape the top anime from [MyAnimeL
 - [ ] Scrape other pages (e.g. top manga, top characters, etc.)
 
 ## 📝 Note:
-The scraper is set to loop through 20 pages of the top anime list (self.iterations < 19). 1 page has 50 titles, so scraping 20 pages will generate 1000 records. You can adjust this value based on your requirements.
+    The scraper is set to loop through 20 pages of the top anime list (self.iterations < 19). 1 page has 50 titles, so scraping 20 pages will generate 1000 records. You can adjust this value based on your requirements.
 
-Remember to respect the website's terms of service and rate-limit your requests to avoid overloading their server.
+    Remember to respect the website's terms of service and rate-limit your requests to avoid overloading their server.
 
-Feel free to fork this repository, modify the code, and create a pull request. I will be happy to review and merge it.
+    Feel free to fork this repository, modify the code, and create a pull request. I will be happy to review and merge it.
 
-If you have any questions, please feel free to contact me. Happy scraping! 🕷️
+    If you have any questions, please feel free to contact me. Happy scraping! 🕷️
 
 ## 📙 Reference:
 - https://myanimelist.net/
