@@ -1,5 +1,5 @@
 # MyAnimeList Scraper
-This is a Scrapy project that is designed to scrape the top anime from MyAnimeList (https://myanimelist.net/topanime.php). The scraper extracts anime titles, scores, episode count, aired dates, and user counts.
+This is a Scrapy project that is designed to scrape the top anime from [MyAnimeList](https://myanimelist.net/topanime.php). The scraper extracts anime titles, scores, episode count, aired dates, and user counts.
 
 ## ✨ Prerequisites
 - Python 3.x
@@ -42,10 +42,18 @@ This is a Scrapy project that is designed to scrape the top anime from MyAnimeLi
 |Ginga Eiyuu Densetsu: Die Neue These - Kaikou      |7.77 |TV (12 eps)    |Apr 2018 - Jun 2018|82,377 members   |
 |Hadashi no Gen                                     |7.77 |Movie (1 eps)  |Jul 1983 - Jul 1983|51,291 members   |
 
-## 📝 Note:
-The spider is set to loop through 20 pages of the top anime list (self.iterations < 19). 1 page has 50 titles, so scraping 20 pages will generate 1000 records. You can adjust this value based on your requirements.
+## 🔮 Future Improvements:
+- [ ] Scrape more data (e.g. genre, studio, source, etc.)
+- [ ] Scrape other pages (e.g. top manga, top characters, etc.)
 
-Remember to respect the website's terms of service and rate-limit your requests to avoid overloading their server. Happy scraping! 🕷️
+## 📝 Note:
+The scraper is set to loop through 20 pages of the top anime list (self.iterations < 19). 1 page has 50 titles, so scraping 20 pages will generate 1000 records. You can adjust this value based on your requirements.
+
+Remember to respect the website's terms of service and rate-limit your requests to avoid overloading their server.
+
+Feel free to fork this repository, modify the code, and create a pull request. I will be happy to review and merge it.
+
+If you have any questions, please feel free to contact me. Happy scraping! 🕷️
 
 ## 📙 Reference:
 - https://myanimelist.net/
